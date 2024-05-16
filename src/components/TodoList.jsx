@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './TodoLists.css'; // Ensure this path is correct
+import './TodoList.css'; //importing css file
 
-const TodoLists = () => {
+const TodoList = () => {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
 
@@ -50,4 +50,4 @@ const TodoLists = () => {
   );
 };
 
-export default TodoLists;
+export default TodoList;

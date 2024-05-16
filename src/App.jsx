@@ -1,11 +1,10 @@
-// src/App.jsx
 import React from 'react';
-import TodoLists from './components/TodoLists';
+import TodoList from './components/TodoList';
 
 const App = () => {
   return (
     <div>
-      <TodoLists />
+      <TodoList />
     </div>
   );
 };
