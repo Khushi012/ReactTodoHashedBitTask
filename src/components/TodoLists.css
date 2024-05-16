@@ -1,0 +1,75 @@
+/* src/components/TodoList.css */
+.todo-list-container {
+    margin-top: 20px;
+    padding: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-list-container h1 {
+    text-align: center;
+  }
+  
+  .todo-list-container input {
+    width: calc(100% - 22px); /* Full width minus padding and border */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .todo-list-container button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .todo-list-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-list-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word; /* Ensure text wraps within the container */
+  }
+  
+  .todo-list-container li:last-child {
+    border-bottom: none; /* Remove border from the last item */
+  }
+  
+  .todo-list-container li button {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .todo-list-container li button:hover {
+    background-color: #c82333;
+  }
+  
+  .task-name {
+    flex: 1; /* Ensure task name takes up remaining space */
+    margin-right: 10px; /* Space between task name and button */
+  }
